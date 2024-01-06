@@ -154,15 +154,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\Global\MoonThread.cpp" />
+    <ClCompile Include="..\Global\MoonThreadBase.cpp" />
     <ClCompile Include="Learn04_ThreadBaseClass.cpp" />
+    <ClCompile Include="TestThread.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="..\Global\Global.vcxproj" />
     <Content Include="..\Global\Global.vcxproj.filters" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Global\MoonThread.h" />
+    <ClInclude Include="..\Global\MoonThreadBase.h" />
+    <ClInclude Include="TestThread.h" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="..\Global\x64\Debug\Global.tlog" />
